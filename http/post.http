@@ -1,0 +1,12 @@
+### post 작성
+POST {{uri}}/create-post
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test",
+    "authorId": 1
+}
+
+### post 조회
+GET {{uri}}/posts/1
